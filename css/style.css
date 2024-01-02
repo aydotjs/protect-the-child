@@ -290,7 +290,7 @@ h1, h2, h3, h4, h5,
   background: #000; }
 
 .form-control:active, .form-control:focus {
-  border-color: #00a651; }
+  border-color: #22227a; }
 
 .form-control:hover, .form-control:active, .form-control:focus {
   -webkit-box-shadow: none !important;
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: rgba(33, 50, 59, 0.9); }
+      background: rgba(33, 50, 59, 0.7); }
   .bg-image.overlay-primary {
     position: relative; }
     .bg-image.overlay-primary:after {
@@ -387,7 +387,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       z-index: 0;
       width: 100%;
-      background: rgba(0, 166, 81, 0.9); }
+      background: rgba(13, 2, 90, 0.7); }
   .bg-image > .container {
     position: relative;
     z-index: 1; }
@@ -1782,7 +1782,7 @@ h1, h2, h3, h4, h5,
       width: 100%;
       background: #ccc; }
       .cause .custom-progress-wrap .custom-progress-inner .custom-progress {
-        background: #00a651;
+        background: #22227a !important;
         height: 7px;
         border-top-right-radius: 4px;
         border-bottom-right-radius: 4px; }
