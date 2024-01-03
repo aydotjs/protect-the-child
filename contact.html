@@ -30,6 +30,11 @@
    })();
 </script>
 <script src="sendMail.js"></script>
+<style>
+  .idle{
+    background-color: #22227a !important;
+  }
+</style>
 
   </head>
 
@@ -141,7 +146,7 @@
               </div>
               <div class="form-group row">
                 <div class="col-md-6 mr-auto">
-                  <button type="submit" class="btn btn-block btn-primary text-white py-3 px-5 rounded-0" value="" onclick="sendMail()">Send Message</button>
+                  <button type="submit" class="btn btn-block btn-primary text-white py-3 px-5 rounded-0 idle" value="" onclick="sendMail()">Send Message</button>
                 </div>
               </div>
             </form>
@@ -170,7 +175,7 @@
         
             <div class="d-md-flex cta-20101 align-self-center bg-light p-5">
               <div class=""><h2 class="text-cursive">Protecting children, one donation at a time. Join us</h2></div>
-              <div class="ml-auto"><a href="#" class="btn btn-primary">Donate Now</a></div>
+              <div class="ml-auto"><a href="#" class="btn btn-primary idle">Donate Now</a></div>
             </div>
         
       </div>
@@ -213,7 +218,7 @@
                 <div class="input-group mb-3">
                   <input type="text" class="form-control rounded-0 border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
-                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
+                    <button class="btn btn-primary text-white idle" type="button" id="button-addon2">Subscribe</button>
                   </div>
                 </div>
             </div>
